@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'skyeral'
+            keyPassword '1607498'
+            storeFile file('C:/Users/aduyunov/Desktop/SSH/android/keystore.jsk')
+            storePassword '1607498'
+        }
+    }
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "edu.cmu.pocketsphinx.demo"
+        minSdkVersion 9
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+        signingConfig signingConfigs.config
+    }
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable true
+        }
+        debug {
+            debuggable true
+        }
+    }
+    productFlavors {
+    }
+}
+
+ant.importBuild 'assets.xml'
+preBuild.dependsOn(list, checksum)
+clean.dependsOn(clean_assets)
+
+dependencies {
+    compile files('libs/pocketsphinx-android-0.8-nolib.jar')
+}
