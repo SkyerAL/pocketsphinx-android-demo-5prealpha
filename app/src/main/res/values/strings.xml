@@ -5,8 +5,8 @@
     <string name="start">Start</string>
     <string name="stop">Stop</string>
     
-    <string name="kws_caption">To start demonstration say \"start\".</string>
-    <string name="menu_caption">Say \"digits\" or \"forecast\" to choose particular example.</string>
-    <string name="digits_caption">Let\'s recognize some digits: say something like \"one two three four five\".</string>
+    <string name="kws_caption">Для активации скажи \"окей связной\".</string>
+    <string name="menu_caption">Скажи \"подбор\" или \"откат\" для выбора варианта операции.</string>
+    <string name="digits_caption">Let\'s управление внутри подбора \"еще раз, повтори, готово\".</string>
     <string name="forecast_caption">Say something typical to a weather forecast like \"sunny spells on Wednesday\".</string>
 </resources>
