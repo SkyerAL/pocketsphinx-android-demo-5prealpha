@@ -17,7 +17,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: edu.cmu.pocketsphinx.demo" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="122d1bee-5f12-4d2c-a1f6-c82a44574825" name="Default" comment="" />
+    <list default="true" id="122d1bee-5f12-4d2c-a1f6-c82a44574825" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="pocketsphinx-android-demo-5prealpha.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,11 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PocketSphinxActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PocketSphinxActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2414">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.55636364" vertical-offset="0" max-vertical-offset="2414">
+              <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
               <folding>
                 <element signature="e#2740#2760#0" expanded="true" />
                 <element signature="e#2797#2818#0" expanded="true" />
@@ -63,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cmu07a.dic" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cmu07a.dic" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1352381" vertical-offset="1948418" max-vertical-offset="2268514">
-              <caret line="114617" column="16" selection-start-line="114617" selection-start-column="16" selection-end-line="114617" selection-end-column="16" />
+            <state vertical-scroll-proportion="-90735.12" vertical-offset="0" max-vertical-offset="2268514">
+              <caret line="133434" column="19" selection-start-line="133434" selection-start-column="19" selection-end-line="133434" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -104,6 +107,9 @@
     <option name="KEY_STORE_PATH" value="$USER_HOME$/Desktop/SSH/android/keystore.jsk" />
     <option name="KEY_ALIAS" value="skyeral" />
     <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="tasksExpandState">
@@ -1204,7 +1210,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1018" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -1446,7 +1452,7 @@
     <property name="ExportApk.Flavors" value="" />
     <property name="ExportApk.BuildType" value="release" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_21_x86" />
-    <property name="options.lastSelected" value="tasks" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -1862,23 +1868,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-90735.12" vertical-offset="0" max-vertical-offset="2268514">
+          <caret line="133434" column="19" selection-start-line="133434" selection-start-column="19" selection-end-line="133434" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2414">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.55636364" vertical-offset="0" max-vertical-offset="2414">
+          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
           <folding>
             <element signature="e#2740#2760#0" expanded="true" />
             <element signature="e#2797#2818#0" expanded="true" />
             <element signature="e#2921#2946#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1352381" vertical-offset="1948418" max-vertical-offset="2268514">
-          <caret line="114617" column="16" selection-start-line="114617" selection-start-column="16" selection-end-line="114617" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
