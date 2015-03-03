@@ -1,5 +1,5 @@
 #JSGF V1.0;
-
-grammar menu;
-
-public <item> = digits | forecast;
+grammar vid_doc;
+public <vid_doc> = ( <a> | <a> <b> );
+<a> = ( подбор | откат );
+<b> = [ начать ];
