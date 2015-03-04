@@ -1,5 +1,5 @@
 #JSGF V1.0;
-grammar vid_doc;
-public <vid_doc> = ( <a> | <a> <b> );
+grammar menu;
+public <menu> = ( <a> | <a> <b> );
 <a> = ( подбор | откат );
 <b> = [ начать ];

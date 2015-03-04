@@ -1,6 +1,6 @@
 #JSGF V1.0;
-grammar podbor_oper;
-public <podbor_oper> = готово    |
+grammar digits;
+public <digits> = готово    |
                        следующий |
                        повтори   |
                        ещёраз    |
