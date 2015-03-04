@@ -1,17 +1,8 @@
 #JSGF V1.0;
-
-grammar digits;
-
-<digit> = oh    |
-          zero  |
-          one   |
-          two   |
-          three |
-          four  |
-          five  |
-          six   |
-          seven |
-          eight |
-          nine  ;
-
-public <digits> = <digit>+;
+grammar podbor_oper;
+public <podbor_oper> = готово    |
+                       следующий |
+                       повтори   |
+                       ещёраз    |
+                       завершить |
+                       стоп      ;
