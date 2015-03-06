@@ -1,5 +1,5 @@
 #JSGF V1.0;
 grammar menu;
 public <menu> = ( <a> | <a> <b> );
-<a> = ( подбор | откат );
-<b> = [ начать ];
+<a> = ( podbor | otkat );
+<b> = [ nachat ];

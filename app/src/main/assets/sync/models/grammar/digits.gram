@@ -1,8 +1,8 @@
 #JSGF V1.0;
 grammar digits;
-public <digits> = готово    |
-                       следующий |
-                       повтори   |
-                       ещёраз    |
-                       завершить |
-                       стоп      ;
+public <digits> = gotovo    |
+                       sleduyushi |
+                       povtory   |
+                       eseraz    |
+                       zavershit |
+                       stop      ;
