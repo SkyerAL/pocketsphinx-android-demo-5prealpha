@@ -19,7 +19,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122d1bee-5f12-4d2c-a1f6-c82a44574825" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pocketsphinx-android-demo-5prealpha.iws" />
@@ -1804,7 +1803,11 @@
       <created>1425653808358</created>
       <updated>1425653808358</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="test/ добавил активацию синтезатора">
+      <created>1425654800790</created>
+      <updated>1425654800790</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1896,7 +1899,8 @@
     <MESSAGE value="добавил модель подборов" />
     <MESSAGE value="test/добавил  сценарий подборов" />
     <MESSAGE value="test/ otladka" />
-    <option name="LAST_COMMIT_MESSAGE" value="test/ otladka" />
+    <MESSAGE value="test/ добавил активацию синтезатора" />
+    <option name="LAST_COMMIT_MESSAGE" value="test/ добавил активацию синтезатора" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
