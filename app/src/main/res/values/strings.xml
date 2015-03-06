@@ -6,7 +6,14 @@
     <string name="stop">Stop</string>
     
     <string name="kws_caption">Для активации скажи \"start\".</string>
-    <string name="menu_caption">Скажи \"подбор\" или \"откат\" для выбора варианта операции.</string>
-    <string name="digits_caption">Let\'s управление внутри подбора \"еще раз, повтори, готово\".</string>
+    <string name="menu_caption">Скажи \"подбор\" или \"blabla\" для выбора варианта операции.</string>
+    <string name="digits_caption">Eправление внутри подбора \"готово | следующий | потори | еше раз |завершить | stop\".</string>
     <string name="forecast_caption">Say something typical to a weather forecast like \"sunny spells on Wednesday\".</string>
+
+    <string name="answer_activate">Начинаем работу</string>
+    <string name="answer_start">Подбор товара</string>
+    <string name="answer_article">Артикул</string>
+    <string name="answer_stop">Подбор окончен</string>
+    <string name="answer_undefined">Команда не опознана</string>
+
 </resources>

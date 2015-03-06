@@ -1,3 +1,5 @@
 #JSGF V1.0;
 grammar digits;
-public <digits> = gotovo | sleduyushi | povtory | eseraz | zavershit | stop;
+public <digits> = gotovo | next | dalshe |
+                  povtory | eseraz | neponyal |
+                  zavershit | stop;

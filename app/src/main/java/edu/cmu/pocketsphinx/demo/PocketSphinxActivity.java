@@ -36,16 +36,23 @@ import static edu.cmu.pocketsphinx.SpeechRecognizerSetup.defaultSetup;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.UUID;
 
 import android.app.Activity;
+import android.media.AudioManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.speech.tts.TextToSpeech;
 import android.widget.TextView;
 import android.widget.Toast;
 import edu.cmu.pocketsphinx.Assets;
 import edu.cmu.pocketsphinx.Hypothesis;
 import edu.cmu.pocketsphinx.RecognitionListener;
 import edu.cmu.pocketsphinx.SpeechRecognizer;
+import edu.cmu.pocketsphinx.model.Model;
+import edu.cmu.pocketsphinx.model.ModelState;
 
 public class PocketSphinxActivity extends Activity implements
         RecognitionListener {
@@ -56,8 +63,14 @@ public class PocketSphinxActivity extends Activity implements
     private static final String MENU_SEARCH = "menu";
     private static final String KEYPHRASE = "start";
 
+    private static String TEK_SEARCH = "KWS_SEARCH";
+
+
     private SpeechRecognizer recognizer;
     private HashMap<String, Integer> captions;
+
+    private TextToSpeech mTextToSpeech;
+    private final Queue<String> mSpeechQueue = new LinkedList<>();
 
     @Override
     public void onCreate(Bundle state) {
@@ -104,15 +117,99 @@ public class PocketSphinxActivity extends Activity implements
     @Override
     public void onPartialResult(Hypothesis hypothesis) {
         String text = hypothesis.getHypstr();
-        if (text.equals(KEYPHRASE))
-            switchSearch(MENU_SEARCH);
-        else if (text.equals(DIGITS_SEARCH))
-            switchSearch(DIGITS_SEARCH);
-        else if (text.equals(FORECAST_SEARCH))
-            switchSearch(FORECAST_SEARCH);
-        else
+        if (text.equals(KEYPHRASE)) {
+//            Model.setState(ModelState.ACTIVATE)
+            TEK_SEARCH = MENU_SEARCH;
+            switchSearch(TEK_SEARCH);
+        }
+        else if (text.equals(DIGITS_SEARCH)) {
+            TEK_SEARCH = DIGITS_SEARCH;
+            switchSearch(TEK_SEARCH);
+        }
+        else if (text.equals(FORECAST_SEARCH)) {
+            TEK_SEARCH = FORECAST_SEARCH;
+            switchSearch(TEK_SEARCH);
+        }
+        else {
             ((TextView) findViewById(R.id.result_text)).setText(text);
+            processing(hypothesis);
+
+        }
     }
+
+    private void processing(Hypothesis hypothesis) {
+
+      //  mHandler.removeCallbacks(mStopRecognitionCallback);
+        recognizer.stop();
+        // TODO: проверка
+        String text = null;
+        int score = 0;
+
+ /*       if (hypothesis != null) {
+            score = hypothesis.getBestScore();
+            text = hypothesis.getHypstr();
+            Toast.makeText(this, text + " ***** Score: " + score, Toast.LENGTH_SHORT).show();
+        }
+*/
+//        mRecognizer.stop();
+//        mRecognizer.cancel();
+
+//        if (score<-3000 && COMMAND_SEARCH.equals(mRecognizer.getSearchName())) {
+        if (text != null) {
+//              Toast.makeText(this, "Score: " + score, Toast.LENGTH_SHORT).show();
+
+            //Toast.makeText(this, text + " ***** Score: " + score, Toast.LENGTH_SHORT).show();
+            ((TextView) findViewById(R.id.result_text)).setText(text);
+
+            // TODO: states
+            String answer = null;
+
+/*
+            if (text.equals(getString(R.string.command_activate_1)) || text.equals(getString(R.string.command_activate_2))) {
+                if (Model.setState(ModelState.ACTIVATE)) {
+                    answer = getString(R.string.answer_activate);
+                }
+            } else if (text.equals(getString(R.string.command_start_1)) || text.equals(getString(R.string.command_start_2))) {
+                if (Model.setState(ModelState.START)) {
+                    answer = getString(R.string.answer_start) + " " + getString(R.string.answer_article) + " " + Model.getData().getCurrent().getName();
+                }
+            } else
+*/
+            if (text.equals("gotovo") || text.equals("dalshe") || text.equals("next")) {
+                if (Model.getState() == ModelState.START) {
+                    if (Model.getData().getNext() != null) {
+                        answer = getString(R.string.answer_article) + " " + Model.getData().getCurrent().getName();
+                    } else {
+                        Model.setState(ModelState.STOP);
+                        answer = getString(R.string.answer_stop);
+                    }
+                }
+            } else if (text.equals("povtory") || text.equals("eseraz") || text.equals("neponyal")) {
+                if (Model.getState() == ModelState.START) {
+                    answer = getString(R.string.answer_article) + " " + Model.getData().getCurrent().getName();
+                }
+            } else if (text.equals("zavershit") || text.equals("stop")) {
+                if (Model.setState(ModelState.STOP)) {
+                    answer = getString(R.string.answer_stop);
+                    switchSearch(KWS_SEARCH);
+                }
+            } else {
+                //answer = getString(R.string.answer_undefined);
+            }
+
+            if (answer != null) {
+                process(answer);
+            } else {
+                recognizer.startListening(TEK_SEARCH);
+            }
+//            }
+
+        }else{
+            recognizer.startListening(TEK_SEARCH);
+        }
+    }
+
+
 
     @Override
     public void onResult(Hypothesis hypothesis) {
@@ -129,9 +226,9 @@ public class PocketSphinxActivity extends Activity implements
 
     @Override
     public void onEndOfSpeech() {
-        if (DIGITS_SEARCH.equals(recognizer.getSearchName())
+  /*      if (DIGITS_SEARCH.equals(recognizer.getSearchName())
                 || FORECAST_SEARCH.equals(recognizer.getSearchName()))
-            switchSearch(KWS_SEARCH);
+            switchSearch(KWS_SEARCH);*/
     }
 
     private void switchSearch(String searchName) {
@@ -160,5 +257,40 @@ public class PocketSphinxActivity extends Activity implements
         // Create language model search.
         File languageModel = new File(modelsDir, "lm/weather.dmp");
         recognizer.addNgramSearch(FORECAST_SEARCH, languageModel);
+    }
+
+    ///
+    /// Синтез речи
+    ///
+
+    private void speak(String text) {
+        synchronized (mSpeechQueue) {
+            recognizer.stop();
+            mSpeechQueue.add(text);
+            HashMap<String, String> params = new HashMap<>(2);
+            params.put(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, UUID.randomUUID().toString());
+            params.put(TextToSpeech.Engine.KEY_PARAM_STREAM, String.valueOf(AudioManager.STREAM_MUSIC));
+            params.put(TextToSpeech.Engine.KEY_FEATURE_EMBEDDED_SYNTHESIS, "true");
+            mTextToSpeech.speak(text, TextToSpeech.QUEUE_ADD, params);
+        }
+    }
+
+    private final TextToSpeech.OnUtteranceCompletedListener mUtteranceCompletedListener = new TextToSpeech.OnUtteranceCompletedListener() {
+        @Override
+        public void onUtteranceCompleted(String utteranceId) {
+            synchronized (mSpeechQueue) {
+                mSpeechQueue.poll();
+                if (mSpeechQueue.isEmpty()) {
+//                    recognizer.startListening(KWS_SEARCH);
+                    recognizer.startListening(TEK_SEARCH);
+                    //startRecognition();
+                }
+            }
+        }
+    };
+    private void process(String text) {
+        //Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
+        ((TextView) findViewById(R.id.result_text)).setText(text);
+        speak(text);
     }
 }
