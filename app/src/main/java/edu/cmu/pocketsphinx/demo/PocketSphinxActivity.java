@@ -144,23 +144,48 @@ public class PocketSphinxActivity extends Activity implements
 
     @Override
     public void onPartialResult(Hypothesis hypothesis) {
+        String answer = null;
         String text = hypothesis.getHypstr();
         if (text.equals(KEYPHRASE)) {
-//            Model.setState(ModelState.ACTIVATE)
+            if (Model.setState(ModelState.ACTIVATE)) {
+                answer = getString(R.string.answer_activate);
+            }
             TEK_SEARCH = MENU_SEARCH;
             switchSearch(TEK_SEARCH);
+            if (answer != null) {
+                process(answer);
+            }
         }
         else if (text.equals(DIGITS_SEARCH)) {
+            if (Model.setState(ModelState.START)) {
+                answer = getString(R.string.answer_start) + " " + getString(R.string.answer_article) + " " + Model.getData().getCurrent().getName();
+            }
             TEK_SEARCH = DIGITS_SEARCH;
             switchSearch(TEK_SEARCH);
+            if (answer != null) {
+                process(answer);
+            }
         }
         else if (text.equals(FORECAST_SEARCH)) {
+/*
             TEK_SEARCH = FORECAST_SEARCH;
             switchSearch(TEK_SEARCH);
+*/
+            if (Model.setState(ModelState.START)) {
+                answer = getString(R.string.answer_start) + " " + getString(R.string.answer_article) + " " + Model.getData().getCurrent().getName();
+            }
+
+            TEK_SEARCH = DIGITS_SEARCH;
+            switchSearch(TEK_SEARCH);
+            if (answer != null) {
+                process(answer);
+            }
+
         }
         else {
             ((TextView) findViewById(R.id.result_text)).setText(text);
-            processing(hypothesis);
+            recognizer.stop();
+            //processing(hypothesis);
 
         }
     }
@@ -246,6 +271,7 @@ public class PocketSphinxActivity extends Activity implements
     public void onResult(Hypothesis hypothesis) {
         ((TextView) findViewById(R.id.result_text)).setText("");
         if (hypothesis != null) {
+            processing(hypothesis);
             String text = hypothesis.getHypstr();
             makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show();
         }
