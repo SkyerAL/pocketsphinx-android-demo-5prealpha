@@ -14,17 +14,14 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: edu.cmu.pocketsphinx.demo" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="122d1bee-5f12-4d2c-a1f6-c82a44574825" name="Default" comment="">
+    <list default="true" id="122d1bee-5f12-4d2c-a1f6-c82a44574825" name="Default" comment="test/добавил  сценарий подборов">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/edu/cmu/pocketsphinx/demo/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/edu/cmu/pocketsphinx/demo/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic.md5" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic.md5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram.md5" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram.md5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pocketsphinx-android-demo-5prealpha.iws" />
@@ -51,20 +48,20 @@
       <file leaf-file-name="PocketSphinxActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6464471" vertical-offset="4081" max-vertical-offset="4658">
-              <caret line="290" column="39" selection-start-line="290" selection-start-column="39" selection-end-line="290" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.9514731" vertical-offset="4075" max-vertical-offset="4726">
+              <caret line="300" column="0" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3139#3159#0" expanded="true" />
                 <element signature="e#3196#3217#0" expanded="true" />
                 <element signature="e#3256#3279#0" expanded="true" />
                 <element signature="e#3320#3345#0" expanded="true" />
-                <element signature="e#7020#7054#0" expanded="true" />
-                <element signature="e#7222#7253#0" expanded="true" />
-                <element signature="e#7485#7519#0" expanded="true" />
-                <element signature="e#7744#7775#0" expanded="true" />
-                <element signature="e#10822#11287#0" expanded="true" />
-                <element signature="e#11280#11281#0" expanded="true" />
+                <element signature="e#7107#7141#0" expanded="true" />
+                <element signature="e#7309#7340#0" expanded="true" />
+                <element signature="e#7572#7606#0" expanded="true" />
+                <element signature="e#7831#7862#0" expanded="true" />
+                <element signature="e#10954#11419#0" expanded="true" />
+                <element signature="e#11412#11413#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +70,8 @@
       <file leaf-file-name="cmu07a.dic" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -1265,8 +1262,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/model/ModelState.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/model/Model.java" />
         <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram" />
-        <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" />
       </list>
     </option>
@@ -1799,7 +1796,11 @@
       <created>1425642863805</created>
       <updated>1425642863805</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test/добавил  сценарий подборов">
+      <created>1425652668511</created>
+      <updated>1425652668511</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1818,7 +1819,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32611173" sideWeight="0.4989339" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33865452" sideWeight="0.64818764" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3379791" sideWeight="0.64818764" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1889,11 +1890,12 @@
     <MESSAGE value="рабочая версия" />
     <MESSAGE value="рабочая версия ver1&#10;- включаем сценарий подбора&#10;" />
     <MESSAGE value="добавил модель подборов" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил модель подборов" />
+    <MESSAGE value="test/добавил  сценарий подборов" />
+    <option name="LAST_COMMIT_MESSAGE" value="test/добавил  сценарий подборов" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1931,12 +1933,12 @@
             <element signature="e#3196#3217#0" expanded="true" />
             <element signature="e#3256#3279#0" expanded="true" />
             <element signature="e#3320#3345#0" expanded="true" />
-            <element signature="e#7020#7054#0" expanded="true" />
-            <element signature="e#7222#7253#0" expanded="true" />
-            <element signature="e#7485#7519#0" expanded="true" />
-            <element signature="e#7744#7775#0" expanded="true" />
-            <element signature="e#10822#11287#0" expanded="true" />
-            <element signature="e#11280#11281#0" expanded="true" />
+            <element signature="e#7107#7141#0" expanded="true" />
+            <element signature="e#7309#7340#0" expanded="true" />
+            <element signature="e#7572#7606#0" expanded="true" />
+            <element signature="e#7831#7862#0" expanded="true" />
+            <element signature="e#10954#11419#0" expanded="true" />
+            <element signature="e#11412#11413#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1998,12 +2000,12 @@
             <element signature="e#3196#3217#0" expanded="true" />
             <element signature="e#3256#3279#0" expanded="true" />
             <element signature="e#3320#3345#0" expanded="true" />
-            <element signature="e#7020#7054#0" expanded="true" />
-            <element signature="e#7222#7253#0" expanded="true" />
-            <element signature="e#7485#7519#0" expanded="true" />
-            <element signature="e#7744#7775#0" expanded="true" />
-            <element signature="e#10822#11287#0" expanded="true" />
-            <element signature="e#11280#11281#0" expanded="true" />
+            <element signature="e#7107#7141#0" expanded="true" />
+            <element signature="e#7309#7340#0" expanded="true" />
+            <element signature="e#7572#7606#0" expanded="true" />
+            <element signature="e#7831#7862#0" expanded="true" />
+            <element signature="e#10954#11419#0" expanded="true" />
+            <element signature="e#11412#11413#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2083,12 +2085,12 @@
             <element signature="e#3196#3217#0" expanded="true" />
             <element signature="e#3256#3279#0" expanded="true" />
             <element signature="e#3320#3345#0" expanded="true" />
-            <element signature="e#7020#7054#0" expanded="true" />
-            <element signature="e#7222#7253#0" expanded="true" />
-            <element signature="e#7485#7519#0" expanded="true" />
-            <element signature="e#7744#7775#0" expanded="true" />
-            <element signature="e#10822#11287#0" expanded="true" />
-            <element signature="e#11280#11281#0" expanded="true" />
+            <element signature="e#7107#7141#0" expanded="true" />
+            <element signature="e#7309#7340#0" expanded="true" />
+            <element signature="e#7572#7606#0" expanded="true" />
+            <element signature="e#7831#7862#0" expanded="true" />
+            <element signature="e#10954#11419#0" expanded="true" />
+            <element signature="e#11412#11413#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2201,16 +2203,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-21/com/android/internal/os/ZygoteInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14790">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32664#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/model/ModelState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
@@ -2263,14 +2255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -2329,22 +2313,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-21/com/android/internal/os/ZygoteInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14790">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6464471" vertical-offset="4081" max-vertical-offset="4658">
-          <caret line="290" column="39" selection-start-line="290" selection-start-column="39" selection-end-line="290" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.9514731" vertical-offset="4075" max-vertical-offset="4726">
+          <caret line="300" column="0" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3139#3159#0" expanded="true" />
             <element signature="e#3196#3217#0" expanded="true" />
             <element signature="e#3256#3279#0" expanded="true" />
             <element signature="e#3320#3345#0" expanded="true" />
-            <element signature="e#7020#7054#0" expanded="true" />
-            <element signature="e#7222#7253#0" expanded="true" />
-            <element signature="e#7485#7519#0" expanded="true" />
-            <element signature="e#7744#7775#0" expanded="true" />
-            <element signature="e#10822#11287#0" expanded="true" />
-            <element signature="e#11280#11281#0" expanded="true" />
+            <element signature="e#7107#7141#0" expanded="true" />
+            <element signature="e#7309#7340#0" expanded="true" />
+            <element signature="e#7572#7606#0" expanded="true" />
+            <element signature="e#7831#7862#0" expanded="true" />
+            <element signature="e#10954#11419#0" expanded="true" />
+            <element signature="e#11412#11413#0" expanded="true" />
           </folding>
         </state>
       </provider>

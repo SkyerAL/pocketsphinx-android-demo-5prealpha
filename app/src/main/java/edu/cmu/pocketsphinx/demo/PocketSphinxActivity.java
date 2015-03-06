@@ -108,7 +108,8 @@ public class PocketSphinxActivity extends Activity implements
                     ((TextView) findViewById(R.id.caption_text))
                             .setText("Failed to init recognizer " + result);
                 } else {
-                    switchSearch(KWS_SEARCH);
+                    TEK_SEARCH = KWS_SEARCH;
+                    switchSearch(TEK_SEARCH);
                 }
             }
         }.execute();
@@ -143,7 +144,7 @@ public class PocketSphinxActivity extends Activity implements
         recognizer.stop();
         // TODO: проверка
         String text = null;
-        int score = 0;
+//        int score = 0;
 
  /*       if (hypothesis != null) {
             score = hypothesis.getBestScore();
@@ -153,6 +154,8 @@ public class PocketSphinxActivity extends Activity implements
 */
 //        mRecognizer.stop();
 //        mRecognizer.cancel();
+
+        text = hypothesis.getHypstr();
 
 //        if (score<-3000 && COMMAND_SEARCH.equals(mRecognizer.getSearchName())) {
         if (text != null) {
@@ -191,7 +194,8 @@ public class PocketSphinxActivity extends Activity implements
             } else if (text.equals("zavershit") || text.equals("stop")) {
                 if (Model.setState(ModelState.STOP)) {
                     answer = getString(R.string.answer_stop);
-                    switchSearch(KWS_SEARCH);
+                    TEK_SEARCH = KWS_SEARCH;
+                    switchSearch(TEK_SEARCH);
                 }
             } else {
                 //answer = getString(R.string.answer_undefined);
