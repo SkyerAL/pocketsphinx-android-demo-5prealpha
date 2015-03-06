@@ -1,15 +1,11 @@
--alpha 0.97
--dither yes
--doublebw no
--nfilt 40
--ncep 13
--lowerf 133.33334
--upperf 6855.4976
--nfft 512
--wlen 0.0256
--transform legacy
+-nfilt 25
+-lowerf 130
+-upperf 6800
 -feat 1s_c_d_dd
+-svspec 0-12/13-25/26-38
 -agc none
 -cmn current
 -varnorm no
-
+-transform dct
+-lifter 22
+-cmninit 40
