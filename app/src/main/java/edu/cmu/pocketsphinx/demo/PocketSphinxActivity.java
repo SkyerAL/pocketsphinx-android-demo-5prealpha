@@ -37,6 +37,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.Locale;
 import java.util.Queue;
 import java.util.UUID;
 
@@ -72,6 +73,8 @@ public class PocketSphinxActivity extends Activity implements
     private TextToSpeech mTextToSpeech;
     private final Queue<String> mSpeechQueue = new LinkedList<>();
 
+    private PocketSphinxActivity instance;
+
     @Override
     public void onCreate(Bundle state) {
         super.onCreate(state);
@@ -85,6 +88,30 @@ public class PocketSphinxActivity extends Activity implements
         setContentView(R.layout.main);
         ((TextView) findViewById(R.id.caption_text))
                 .setText("Preparing the recognizer");
+
+        instance = this;
+
+        mTextToSpeech = new TextToSpeech(this, new TextToSpeech.OnInitListener() {
+            @Override
+            public void onInit(int status) {
+                if (status == TextToSpeech.ERROR) {
+                    return;
+                } else {
+                    Toast.makeText(instance, "Статус загрузки = " + status, Toast.LENGTH_SHORT).show();
+                }
+                Locale locale = new Locale("ru");
+                //if (mTextToSpeech.isLanguageAvailable(locale) == TextToSpeech.LANG_AVAILABLE) {}
+                int result = mTextToSpeech.setLanguage(locale);
+                if (result == mTextToSpeech.LANG_MISSING_DATA || result == mTextToSpeech.LANG_NOT_SUPPORTED) {
+                    Toast.makeText(instance, "Языковой пакет не загружен", Toast.LENGTH_SHORT).show();
+                    return;
+                } else {
+                    Toast.makeText(instance, "Статус загрузки локали = " + result, Toast.LENGTH_SHORT).show();
+                }
+                mTextToSpeech.setOnUtteranceCompletedListener(mUtteranceCompletedListener);
+                //mTextToSpeech.setOnUtteranceProgressListener(mUtteranceCompletedListener);
+            }
+        });
 
         // Recognizer initialization is a time-consuming and it involves IO,
         // so we execute it in async task
