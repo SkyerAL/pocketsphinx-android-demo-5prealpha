@@ -51,7 +51,7 @@ public class PocketSphinxActivity extends Activity implements
         RecognitionListener {
 
     private static final String KWS_SEARCH = "wakeup";
-    private static final String FORECAST_SEARCH = "otkat";
+    private static final String FORECAST_SEARCH = "blabla";
     private static final String DIGITS_SEARCH = "podbor";
     private static final String MENU_SEARCH = "menu";
     private static final String KEYPHRASE = "start";
