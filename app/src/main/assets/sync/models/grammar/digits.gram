@@ -2,4 +2,4 @@
 grammar digits;
 public <digits> = gotovo | next | dalshe |
                   povtory | eseraz | neponyal |
-                  zavershit | stop;
+                  zavershit | stop | podborokonchen;
