@@ -18,15 +18,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: edu.cmu.pocketsphinx.demo" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="122d1bee-5f12-4d2c-a1f6-c82a44574825" name="Default" comment="test/ стабильная версия">
+    <list default="true" id="122d1bee-5f12-4d2c-a1f6-c82a44574825" name="Default" comment="ввел тестовый режим">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic.md5" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic.md5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram.md5" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram.md5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram.md5" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram.md5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pocketsphinx-android-demo-5prealpha.iws" />
@@ -53,26 +46,28 @@
       <file leaf-file-name="PocketSphinxActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23743501" vertical-offset="2736" max-vertical-offset="6035">
-              <caret line="197" column="47" selection-start-line="197" selection-start-column="47" selection-end-line="197" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.31212485" vertical-offset="2766" max-vertical-offset="6324">
+              <caret line="206" column="19" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3206#3226#0" expanded="true" />
-                <element signature="e#3263#3284#0" expanded="true" />
-                <element signature="e#3323#3346#0" expanded="true" />
-                <element signature="e#3387#3412#0" expanded="true" />
-                <element signature="e#3635#4782#0" expanded="true" />
-                <element signature="e#4771#4772#0" expanded="true" />
-                <element signature="e#6081#6116#0" expanded="true" />
-                <element signature="e#6423#6455#0" expanded="true" />
-                <element signature="e#6464#6498#0" expanded="true" />
-                <element signature="e#9451#9485#0" expanded="true" />
-                <element signature="e#9665#9696#0" expanded="true" />
-                <element signature="e#9948#9982#0" expanded="true" />
-                <element signature="e#10256#10287#0" expanded="true" />
-                <element signature="e#10710#10741#0" expanded="true" />
-                <element signature="e#14048#14513#0" expanded="true" />
-                <element signature="e#14506#14507#0" expanded="true" />
+                <element signature="e#3134#3243#0" expanded="true" />
+                <element signature="e#3236#3237#0" expanded="true" />
+                <element signature="e#3576#3596#0" expanded="true" />
+                <element signature="e#3633#3654#0" expanded="true" />
+                <element signature="e#3693#3716#0" expanded="true" />
+                <element signature="e#3757#3782#0" expanded="true" />
+                <element signature="e#4005#5152#0" expanded="true" />
+                <element signature="e#5141#5142#0" expanded="true" />
+                <element signature="e#6451#6486#0" expanded="true" />
+                <element signature="e#6793#6825#0" expanded="true" />
+                <element signature="e#6834#6868#0" expanded="true" />
+                <element signature="e#9902#9936#0" expanded="true" />
+                <element signature="e#10116#10147#0" expanded="true" />
+                <element signature="e#10399#10433#0" expanded="true" />
+                <element signature="e#10707#10738#0" expanded="true" />
+                <element signature="e#11161#11192#0" expanded="true" />
+                <element signature="e#14499#14964#0" expanded="true" />
+                <element signature="e#14957#14958#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1274,8 +1269,8 @@
         <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram" />
         <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic" />
+        <option value="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" />
       </list>
     </option>
   </component>
@@ -1827,7 +1822,11 @@
       <created>1425656198491</created>
       <updated>1425656198491</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ввел тестовый режим">
+      <created>1426692896809</created>
+      <updated>1426692896810</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1839,7 +1838,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295699" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839224" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26480836" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26480836" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33865452" sideWeight="0.35181236" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1875,7 +1874,7 @@
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17849462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17849462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
@@ -1921,7 +1920,8 @@
     <MESSAGE value="test/ otladka" />
     <MESSAGE value="test/ добавил активацию синтезатора" />
     <MESSAGE value="test/ стабильная версия" />
-    <option name="LAST_COMMIT_MESSAGE" value="test/ стабильная версия" />
+    <MESSAGE value="ввел тестовый режим" />
+    <option name="LAST_COMMIT_MESSAGE" value="ввел тестовый режим" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1959,22 +1959,24 @@
           <caret line="104" column="56" selection-start-line="104" selection-start-column="56" selection-end-line="104" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3206#3226#0" expanded="true" />
-            <element signature="e#3263#3284#0" expanded="true" />
-            <element signature="e#3323#3346#0" expanded="true" />
-            <element signature="e#3387#3412#0" expanded="true" />
-            <element signature="e#3635#4782#0" expanded="true" />
-            <element signature="e#4771#4772#0" expanded="true" />
-            <element signature="e#6081#6116#0" expanded="true" />
-            <element signature="e#6423#6455#0" expanded="true" />
-            <element signature="e#6464#6498#0" expanded="true" />
-            <element signature="e#9451#9485#0" expanded="true" />
-            <element signature="e#9665#9696#0" expanded="true" />
-            <element signature="e#9948#9982#0" expanded="true" />
-            <element signature="e#10256#10287#0" expanded="true" />
-            <element signature="e#10710#10741#0" expanded="true" />
-            <element signature="e#14048#14513#0" expanded="true" />
-            <element signature="e#14506#14507#0" expanded="true" />
+            <element signature="e#3134#3243#0" expanded="true" />
+            <element signature="e#3236#3237#0" expanded="true" />
+            <element signature="e#3576#3596#0" expanded="true" />
+            <element signature="e#3633#3654#0" expanded="true" />
+            <element signature="e#3693#3716#0" expanded="true" />
+            <element signature="e#3757#3782#0" expanded="true" />
+            <element signature="e#4005#5152#0" expanded="true" />
+            <element signature="e#5141#5142#0" expanded="true" />
+            <element signature="e#6451#6486#0" expanded="true" />
+            <element signature="e#6793#6825#0" expanded="true" />
+            <element signature="e#6834#6868#0" expanded="true" />
+            <element signature="e#9902#9936#0" expanded="true" />
+            <element signature="e#10116#10147#0" expanded="true" />
+            <element signature="e#10399#10433#0" expanded="true" />
+            <element signature="e#10707#10738#0" expanded="true" />
+            <element signature="e#11161#11192#0" expanded="true" />
+            <element signature="e#14499#14964#0" expanded="true" />
+            <element signature="e#14957#14958#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2032,22 +2034,24 @@
           <caret line="155" column="60" selection-start-line="155" selection-start-column="56" selection-end-line="155" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3206#3226#0" expanded="true" />
-            <element signature="e#3263#3284#0" expanded="true" />
-            <element signature="e#3323#3346#0" expanded="true" />
-            <element signature="e#3387#3412#0" expanded="true" />
-            <element signature="e#3635#4782#0" expanded="true" />
-            <element signature="e#4771#4772#0" expanded="true" />
-            <element signature="e#6081#6116#0" expanded="true" />
-            <element signature="e#6423#6455#0" expanded="true" />
-            <element signature="e#6464#6498#0" expanded="true" />
-            <element signature="e#9451#9485#0" expanded="true" />
-            <element signature="e#9665#9696#0" expanded="true" />
-            <element signature="e#9948#9982#0" expanded="true" />
-            <element signature="e#10256#10287#0" expanded="true" />
-            <element signature="e#10710#10741#0" expanded="true" />
-            <element signature="e#14048#14513#0" expanded="true" />
-            <element signature="e#14506#14507#0" expanded="true" />
+            <element signature="e#3134#3243#0" expanded="true" />
+            <element signature="e#3236#3237#0" expanded="true" />
+            <element signature="e#3576#3596#0" expanded="true" />
+            <element signature="e#3633#3654#0" expanded="true" />
+            <element signature="e#3693#3716#0" expanded="true" />
+            <element signature="e#3757#3782#0" expanded="true" />
+            <element signature="e#4005#5152#0" expanded="true" />
+            <element signature="e#5141#5142#0" expanded="true" />
+            <element signature="e#6451#6486#0" expanded="true" />
+            <element signature="e#6793#6825#0" expanded="true" />
+            <element signature="e#6834#6868#0" expanded="true" />
+            <element signature="e#9902#9936#0" expanded="true" />
+            <element signature="e#10116#10147#0" expanded="true" />
+            <element signature="e#10399#10433#0" expanded="true" />
+            <element signature="e#10707#10738#0" expanded="true" />
+            <element signature="e#11161#11192#0" expanded="true" />
+            <element signature="e#14499#14964#0" expanded="true" />
+            <element signature="e#14957#14958#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2123,22 +2127,24 @@
           <caret line="33" column="56" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3206#3226#0" expanded="true" />
-            <element signature="e#3263#3284#0" expanded="true" />
-            <element signature="e#3323#3346#0" expanded="true" />
-            <element signature="e#3387#3412#0" expanded="true" />
-            <element signature="e#3635#4782#0" expanded="true" />
-            <element signature="e#4771#4772#0" expanded="true" />
-            <element signature="e#6081#6116#0" expanded="true" />
-            <element signature="e#6423#6455#0" expanded="true" />
-            <element signature="e#6464#6498#0" expanded="true" />
-            <element signature="e#9451#9485#0" expanded="true" />
-            <element signature="e#9665#9696#0" expanded="true" />
-            <element signature="e#9948#9982#0" expanded="true" />
-            <element signature="e#10256#10287#0" expanded="true" />
-            <element signature="e#10710#10741#0" expanded="true" />
-            <element signature="e#14048#14513#0" expanded="true" />
-            <element signature="e#14506#14507#0" expanded="true" />
+            <element signature="e#3134#3243#0" expanded="true" />
+            <element signature="e#3236#3237#0" expanded="true" />
+            <element signature="e#3576#3596#0" expanded="true" />
+            <element signature="e#3633#3654#0" expanded="true" />
+            <element signature="e#3693#3716#0" expanded="true" />
+            <element signature="e#3757#3782#0" expanded="true" />
+            <element signature="e#4005#5152#0" expanded="true" />
+            <element signature="e#5141#5142#0" expanded="true" />
+            <element signature="e#6451#6486#0" expanded="true" />
+            <element signature="e#6793#6825#0" expanded="true" />
+            <element signature="e#6834#6868#0" expanded="true" />
+            <element signature="e#9902#9936#0" expanded="true" />
+            <element signature="e#10116#10147#0" expanded="true" />
+            <element signature="e#10399#10433#0" expanded="true" />
+            <element signature="e#10707#10738#0" expanded="true" />
+            <element signature="e#11161#11192#0" expanded="true" />
+            <element signature="e#14499#14964#0" expanded="true" />
+            <element signature="e#14957#14958#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2328,14 +2334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/pocketsphinx-android-0.8-nolib.jar!/edu/cmu/pocketsphinx/SpeechRecognizer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34655172" vertical-offset="207" max-vertical-offset="1292">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/model/ModelData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
@@ -2379,28 +2377,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/pocketsphinx-android-0.8-nolib.jar!/edu/cmu/pocketsphinx/SpeechRecognizer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34282178" vertical-offset="131" max-vertical-offset="1292">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23743501" vertical-offset="2736" max-vertical-offset="6035">
-          <caret line="197" column="47" selection-start-line="197" selection-start-column="47" selection-end-line="197" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.31212485" vertical-offset="2766" max-vertical-offset="6324">
+          <caret line="206" column="19" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3206#3226#0" expanded="true" />
-            <element signature="e#3263#3284#0" expanded="true" />
-            <element signature="e#3323#3346#0" expanded="true" />
-            <element signature="e#3387#3412#0" expanded="true" />
-            <element signature="e#3635#4782#0" expanded="true" />
-            <element signature="e#4771#4772#0" expanded="true" />
-            <element signature="e#6081#6116#0" expanded="true" />
-            <element signature="e#6423#6455#0" expanded="true" />
-            <element signature="e#6464#6498#0" expanded="true" />
-            <element signature="e#9451#9485#0" expanded="true" />
-            <element signature="e#9665#9696#0" expanded="true" />
-            <element signature="e#9948#9982#0" expanded="true" />
-            <element signature="e#10256#10287#0" expanded="true" />
-            <element signature="e#10710#10741#0" expanded="true" />
-            <element signature="e#14048#14513#0" expanded="true" />
-            <element signature="e#14506#14507#0" expanded="true" />
+            <element signature="e#3134#3243#0" expanded="true" />
+            <element signature="e#3236#3237#0" expanded="true" />
+            <element signature="e#3576#3596#0" expanded="true" />
+            <element signature="e#3633#3654#0" expanded="true" />
+            <element signature="e#3693#3716#0" expanded="true" />
+            <element signature="e#3757#3782#0" expanded="true" />
+            <element signature="e#4005#5152#0" expanded="true" />
+            <element signature="e#5141#5142#0" expanded="true" />
+            <element signature="e#6451#6486#0" expanded="true" />
+            <element signature="e#6793#6825#0" expanded="true" />
+            <element signature="e#6834#6868#0" expanded="true" />
+            <element signature="e#9902#9936#0" expanded="true" />
+            <element signature="e#10116#10147#0" expanded="true" />
+            <element signature="e#10399#10433#0" expanded="true" />
+            <element signature="e#10707#10738#0" expanded="true" />
+            <element signature="e#11161#11192#0" expanded="true" />
+            <element signature="e#14499#14964#0" expanded="true" />
+            <element signature="e#14957#14958#0" expanded="true" />
           </folding>
         </state>
       </provider>

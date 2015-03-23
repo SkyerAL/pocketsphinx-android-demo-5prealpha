@@ -45,6 +45,7 @@ import android.app.Activity;
 import android.media.AudioManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
 import android.speech.tts.TextToSpeech;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -74,6 +75,20 @@ public class PocketSphinxActivity extends Activity implements
     private final Queue<String> mSpeechQueue = new LinkedList<>();
 
     private PocketSphinxActivity instance;
+
+    private final Handler mHandler = new Handler();
+
+    private final Runnable mStopRecognitionCallback = new Runnable() {
+        @Override
+        public void run() {
+            stopRecognition();
+        }
+    };
+
+    private synchronized void stopRecognition() {
+        if (recognizer == null) return;
+        recognizer.stop();
+    }
 
     @Override
     public void onCreate(Bundle state) {
@@ -187,10 +202,12 @@ public class PocketSphinxActivity extends Activity implements
         }
         else {
             ((TextView) findViewById(R.id.result_text)).setText(text);
-//            if (TEK_SEARCH != FORECAST_SEARCH) {
-                recognizer.stop();
-                //processing(hypothesis);
-//            }
+            if (TEK_SEARCH != FORECAST_SEARCH) {
+                stopRecognition();
+//                recognizer.stop();
+            }else {
+                mHandler.postDelayed(mStopRecognitionCallback, 1000);
+            }
 
         }
     }
