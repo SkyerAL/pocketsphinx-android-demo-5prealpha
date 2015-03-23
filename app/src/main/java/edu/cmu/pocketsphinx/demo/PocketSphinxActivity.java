@@ -78,9 +78,12 @@ public class PocketSphinxActivity extends Activity implements
 
     private final Handler mHandler = new Handler();
 
+    private boolean flstop = false;
+
     private final Runnable mStopRecognitionCallback = new Runnable() {
         @Override
         public void run() {
+            flstop = false;
             stopRecognition();
         }
     };
@@ -159,6 +162,8 @@ public class PocketSphinxActivity extends Activity implements
 
     @Override
     public void onPartialResult(Hypothesis hypothesis) {
+        if (flstop==true) return;
+
         String answer = null;
         String text = hypothesis.getHypstr();
         if (text.equals(KEYPHRASE)) {
@@ -202,11 +207,12 @@ public class PocketSphinxActivity extends Activity implements
         }
         else {
             ((TextView) findViewById(R.id.result_text)).setText(text);
-            if (TEK_SEARCH != FORECAST_SEARCH) {
+            if (TEK_SEARCH == FORECAST_SEARCH) {
+                flstop = true;
+                mHandler.postDelayed(mStopRecognitionCallback, 300); // ждем для более полного распознования еще 1000 мс
+            }else {
                 stopRecognition();
 //                recognizer.stop();
-            }else {
-                mHandler.postDelayed(mStopRecognitionCallback, 1000);
             }
 
         }
