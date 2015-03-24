@@ -8,7 +8,8 @@
     <string name="kws_caption">Для активации скажи \"start\".</string>
     <string name="menu_caption">Скажи \"подбор\" или \"тест\" для выбора варианта операции.</string>
     <string name="digits_caption">Управление внутри подбора \"готово | следующий | повтори | еше раз |завершить | stop\".</string>
-    <string name="forecast_caption">Тестирование команд \"готово | дальше| next | повтори | еше раз | не понял | завершить | stop | подбор окончен\".</string>
+    <string name="forecast_caption">Тестирование команд \"готово | дальше| next | артикул | повтори | еше раз | не понял | завершить | stop | подбор окончен\".</string>
+    <string name="articulDigits_caption">Тестирование команд \"1 | 2| 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | артикул\".</string>
     <!--<string name="forecast_caption">Say something typical to a weather forecast like \"sunny spells on Wednesday\".</string>-->
 
     <string name="answer_activate">Начинаем работу</string>

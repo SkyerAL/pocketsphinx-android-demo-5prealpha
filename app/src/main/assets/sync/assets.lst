@@ -1,4 +1,5 @@
 models/dict/cmu07a.dic
+models/grammar/articuldigits.gram
 models/grammar/digits.gram
 models/grammar/menu.gram
 models/hmm/en-us-semi/README

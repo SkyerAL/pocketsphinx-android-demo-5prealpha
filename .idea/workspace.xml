@@ -19,8 +19,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122d1bee-5f12-4d2c-a1f6-c82a44574825" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram" />
+      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\generated\source\buildConfig\release\edu\cmu\pocketsphinx\demo\BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\generated\source\buildConfig\test\debug\edu\cmu\pocketsphinx\demo\test\BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\generated\source\r\release\edu\cmu\pocketsphinx\demo\R.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\intermediates\dex\debug\classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\intermediates\dex\release\classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\intermediates\pre-dexed\debug\pocketsphinx-android-0.8-nolib-4e2a1a4445bcc279843db44b0c2ed179ccc90f49.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\intermediates\pre-dexed\release\pocketsphinx-android-0.8-nolib-4e2a1a4445bcc279843db44b0c2ed179ccc90f49.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\intermediates\tmp\dex\debug\inputList.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\intermediates\tmp\dex\release\inputList.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/edu/cmu/pocketsphinx/demo/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/edu/cmu/pocketsphinx/demo/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/assets.lst" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/assets.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic.md5" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic.md5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram.md5" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram.md5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/hmm/en-us-semi/feat.params.md5" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/hmm/en-us-semi/feat.params.md5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/hmm/en-us-semi/noisedict.md5" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/hmm/en-us-semi/noisedict.md5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pocketsphinx-android-demo-5prealpha.iws" />
@@ -47,48 +64,49 @@
       <file leaf-file-name="PocketSphinxActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2689" max-vertical-offset="6426">
-              <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.321429" vertical-offset="418" max-vertical-offset="6375">
+              <caret line="63" column="45" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3171#3308#0" expanded="true" />
-                <element signature="e#3301#3302#0" expanded="true" />
-                <element signature="e#3641#3661#0" expanded="true" />
-                <element signature="e#3698#3719#0" expanded="true" />
-                <element signature="e#3758#3781#0" expanded="true" />
-                <element signature="e#3822#3847#0" expanded="true" />
-                <element signature="e#4070#5217#0" expanded="true" />
-                <element signature="e#5206#5207#0" expanded="true" />
-                <element signature="e#6551#6586#0" expanded="true" />
-                <element signature="e#6893#6925#0" expanded="true" />
-                <element signature="e#6934#6968#0" expanded="true" />
-                <element signature="e#10093#10127#0" expanded="true" />
-                <element signature="e#10307#10338#0" expanded="true" />
-                <element signature="e#10590#10624#0" expanded="true" />
-                <element signature="e#10898#10929#0" expanded="true" />
-                <element signature="e#11352#11383#0" expanded="true" />
-                <element signature="e#14690#15155#0" expanded="true" />
-                <element signature="e#15148#15149#0" expanded="true" />
+                <element signature="e#3237#3374#0" expanded="true" />
+                <element signature="e#3367#3368#0" expanded="true" />
+                <element signature="e#3707#3727#0" expanded="true" />
+                <element signature="e#3764#3785#0" expanded="true" />
+                <element signature="e#3824#3847#0" expanded="true" />
+                <element signature="e#3888#3913#0" expanded="true" />
+                <element signature="e#3959#3989#0" expanded="true" />
+                <element signature="e#4212#5359#0" expanded="true" />
+                <element signature="e#5348#5349#0" expanded="true" />
+                <element signature="e#6693#6728#0" expanded="true" />
+                <element signature="e#7035#7067#0" expanded="true" />
+                <element signature="e#7076#7110#0" expanded="true" />
+                <element signature="e#10018#10052#0" expanded="true" />
+                <element signature="e#10232#10263#0" expanded="true" />
+                <element signature="e#10515#10549#0" expanded="true" />
+                <element signature="e#10823#10854#0" expanded="true" />
+                <element signature="e#11277#11308#0" expanded="true" />
+                <element signature="e#14809#15274#0" expanded="true" />
+                <element signature="e#15267#15268#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpeechRecognizer.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/app/libs/pocketsphinx-android-0.8-nolib.jar!/edu/cmu/pocketsphinx/SpeechRecognizer.class">
+      <file leaf-file-name="articuldigits.gram" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.32" vertical-offset="712" max-vertical-offset="1292">
-              <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.060714286" vertical-offset="0" max-vertical-offset="560">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cmu07a.dic" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cmu07a.dic" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51264757" vertical-offset="70" max-vertical-offset="697">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.071428" vertical-offset="165" max-vertical-offset="714">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -97,8 +115,8 @@
       <file leaf-file-name="cmu07a.dic" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../hmm/alpha/assets/sync/models/dict/cmu07a.dic">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.1698112" vertical-offset="99363" max-vertical-offset="2268514">
-              <caret line="5861" column="30" selection-start-line="5861" selection-start-column="12" selection-end-line="5861" selection-end-column="30" />
+            <state vertical-scroll-proportion="-3.1886792" vertical-offset="103837" max-vertical-offset="2268514">
+              <caret line="6118" column="24" selection-start-line="6118" selection-start-column="18" selection-end-line="6118" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -150,8 +168,8 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.8" vertical-offset="0" max-vertical-offset="425">
-              <caret line="10" column="146" selection-start-line="10" selection-start-column="146" selection-end-line="10" selection-end-column="146" />
+            <state vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="442">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -1278,10 +1296,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/model/ModelState.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/model/Model.java" />
         <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram" />
         <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram" />
       </list>
     </option>
   </component>
@@ -1298,7 +1317,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -1537,6 +1556,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="grammar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pocketsphinx-android-demo-5prealpha" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sync" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dict" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1626,6 +1671,11 @@
     <property name="DEBUGGABLE_DEVICE" value="samsung-gt_i9192-035c0af9" />
     <property name="DEBUGGABLE_PROCESS" value="edu.cmu.pocketsphinx.demo" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\src\main\assets\sync\models\grammar" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -1858,8 +1908,32 @@
       <created>1427202472321</created>
       <updated>1427202472321</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="обновил словарь (добавил цифры)">
+      <created>1427202722867</created>
+      <updated>1427202722867</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1034" extended-state="6" />
@@ -1870,7 +1944,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295699" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839224" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2599772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2599772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26480836" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1879,12 +1953,12 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32520324" sideWeight="0.4989339" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3379791" sideWeight="0.64818764" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17849462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17803837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26480836" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1965,14 +2039,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="238">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="187">
@@ -1995,24 +2061,25 @@
           <caret line="104" column="56" selection-start-line="104" selection-start-column="56" selection-end-line="104" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3171#3308#0" expanded="true" />
-            <element signature="e#3301#3302#0" expanded="true" />
-            <element signature="e#3641#3661#0" expanded="true" />
-            <element signature="e#3698#3719#0" expanded="true" />
-            <element signature="e#3758#3781#0" expanded="true" />
-            <element signature="e#3822#3847#0" expanded="true" />
-            <element signature="e#4070#5217#0" expanded="true" />
-            <element signature="e#5206#5207#0" expanded="true" />
-            <element signature="e#6551#6586#0" expanded="true" />
-            <element signature="e#6893#6925#0" expanded="true" />
-            <element signature="e#6934#6968#0" expanded="true" />
-            <element signature="e#10093#10127#0" expanded="true" />
-            <element signature="e#10307#10338#0" expanded="true" />
-            <element signature="e#10590#10624#0" expanded="true" />
-            <element signature="e#10898#10929#0" expanded="true" />
-            <element signature="e#11352#11383#0" expanded="true" />
-            <element signature="e#14690#15155#0" expanded="true" />
-            <element signature="e#15148#15149#0" expanded="true" />
+            <element signature="e#3237#3374#0" expanded="true" />
+            <element signature="e#3367#3368#0" expanded="true" />
+            <element signature="e#3707#3727#0" expanded="true" />
+            <element signature="e#3764#3785#0" expanded="true" />
+            <element signature="e#3824#3847#0" expanded="true" />
+            <element signature="e#3888#3913#0" expanded="true" />
+            <element signature="e#3959#3989#0" expanded="true" />
+            <element signature="e#4212#5359#0" expanded="true" />
+            <element signature="e#5348#5349#0" expanded="true" />
+            <element signature="e#6693#6728#0" expanded="true" />
+            <element signature="e#7035#7067#0" expanded="true" />
+            <element signature="e#7076#7110#0" expanded="true" />
+            <element signature="e#10018#10052#0" expanded="true" />
+            <element signature="e#10232#10263#0" expanded="true" />
+            <element signature="e#10515#10549#0" expanded="true" />
+            <element signature="e#10823#10854#0" expanded="true" />
+            <element signature="e#11277#11308#0" expanded="true" />
+            <element signature="e#14809#15274#0" expanded="true" />
+            <element signature="e#15267#15268#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2070,24 +2137,25 @@
           <caret line="155" column="60" selection-start-line="155" selection-start-column="56" selection-end-line="155" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3171#3308#0" expanded="true" />
-            <element signature="e#3301#3302#0" expanded="true" />
-            <element signature="e#3641#3661#0" expanded="true" />
-            <element signature="e#3698#3719#0" expanded="true" />
-            <element signature="e#3758#3781#0" expanded="true" />
-            <element signature="e#3822#3847#0" expanded="true" />
-            <element signature="e#4070#5217#0" expanded="true" />
-            <element signature="e#5206#5207#0" expanded="true" />
-            <element signature="e#6551#6586#0" expanded="true" />
-            <element signature="e#6893#6925#0" expanded="true" />
-            <element signature="e#6934#6968#0" expanded="true" />
-            <element signature="e#10093#10127#0" expanded="true" />
-            <element signature="e#10307#10338#0" expanded="true" />
-            <element signature="e#10590#10624#0" expanded="true" />
-            <element signature="e#10898#10929#0" expanded="true" />
-            <element signature="e#11352#11383#0" expanded="true" />
-            <element signature="e#14690#15155#0" expanded="true" />
-            <element signature="e#15148#15149#0" expanded="true" />
+            <element signature="e#3237#3374#0" expanded="true" />
+            <element signature="e#3367#3368#0" expanded="true" />
+            <element signature="e#3707#3727#0" expanded="true" />
+            <element signature="e#3764#3785#0" expanded="true" />
+            <element signature="e#3824#3847#0" expanded="true" />
+            <element signature="e#3888#3913#0" expanded="true" />
+            <element signature="e#3959#3989#0" expanded="true" />
+            <element signature="e#4212#5359#0" expanded="true" />
+            <element signature="e#5348#5349#0" expanded="true" />
+            <element signature="e#6693#6728#0" expanded="true" />
+            <element signature="e#7035#7067#0" expanded="true" />
+            <element signature="e#7076#7110#0" expanded="true" />
+            <element signature="e#10018#10052#0" expanded="true" />
+            <element signature="e#10232#10263#0" expanded="true" />
+            <element signature="e#10515#10549#0" expanded="true" />
+            <element signature="e#10823#10854#0" expanded="true" />
+            <element signature="e#11277#11308#0" expanded="true" />
+            <element signature="e#14809#15274#0" expanded="true" />
+            <element signature="e#15267#15268#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2163,24 +2231,25 @@
           <caret line="33" column="56" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3171#3308#0" expanded="true" />
-            <element signature="e#3301#3302#0" expanded="true" />
-            <element signature="e#3641#3661#0" expanded="true" />
-            <element signature="e#3698#3719#0" expanded="true" />
-            <element signature="e#3758#3781#0" expanded="true" />
-            <element signature="e#3822#3847#0" expanded="true" />
-            <element signature="e#4070#5217#0" expanded="true" />
-            <element signature="e#5206#5207#0" expanded="true" />
-            <element signature="e#6551#6586#0" expanded="true" />
-            <element signature="e#6893#6925#0" expanded="true" />
-            <element signature="e#6934#6968#0" expanded="true" />
-            <element signature="e#10093#10127#0" expanded="true" />
-            <element signature="e#10307#10338#0" expanded="true" />
-            <element signature="e#10590#10624#0" expanded="true" />
-            <element signature="e#10898#10929#0" expanded="true" />
-            <element signature="e#11352#11383#0" expanded="true" />
-            <element signature="e#14690#15155#0" expanded="true" />
-            <element signature="e#15148#15149#0" expanded="true" />
+            <element signature="e#3237#3374#0" expanded="true" />
+            <element signature="e#3367#3368#0" expanded="true" />
+            <element signature="e#3707#3727#0" expanded="true" />
+            <element signature="e#3764#3785#0" expanded="true" />
+            <element signature="e#3824#3847#0" expanded="true" />
+            <element signature="e#3888#3913#0" expanded="true" />
+            <element signature="e#3959#3989#0" expanded="true" />
+            <element signature="e#4212#5359#0" expanded="true" />
+            <element signature="e#5348#5349#0" expanded="true" />
+            <element signature="e#6693#6728#0" expanded="true" />
+            <element signature="e#7035#7067#0" expanded="true" />
+            <element signature="e#7076#7110#0" expanded="true" />
+            <element signature="e#10018#10052#0" expanded="true" />
+            <element signature="e#10232#10263#0" expanded="true" />
+            <element signature="e#10515#10549#0" expanded="true" />
+            <element signature="e#10823#10854#0" expanded="true" />
+            <element signature="e#11277#11308#0" expanded="true" />
+            <element signature="e#14809#15274#0" expanded="true" />
+            <element signature="e#15267#15268#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2346,14 +2415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/pocketsphinx-android-0.8-nolib.jar!/edu/cmu/pocketsphinx/SpeechRecognizer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.32" vertical-offset="712" max-vertical-offset="1292">
-          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/model/ModelState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
@@ -2381,47 +2442,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2689" max-vertical-offset="6426">
-          <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3171#3308#0" expanded="true" />
-            <element signature="e#3301#3302#0" expanded="true" />
-            <element signature="e#3641#3661#0" expanded="true" />
-            <element signature="e#3698#3719#0" expanded="true" />
-            <element signature="e#3758#3781#0" expanded="true" />
-            <element signature="e#3822#3847#0" expanded="true" />
-            <element signature="e#4070#5217#0" expanded="true" />
-            <element signature="e#5206#5207#0" expanded="true" />
-            <element signature="e#6551#6586#0" expanded="true" />
-            <element signature="e#6893#6925#0" expanded="true" />
-            <element signature="e#6934#6968#0" expanded="true" />
-            <element signature="e#10093#10127#0" expanded="true" />
-            <element signature="e#10307#10338#0" expanded="true" />
-            <element signature="e#10590#10624#0" expanded="true" />
-            <element signature="e#10898#10929#0" expanded="true" />
-            <element signature="e#11352#11383#0" expanded="true" />
-            <element signature="e#14690#15155#0" expanded="true" />
-            <element signature="e#15148#15149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.8" vertical-offset="0" max-vertical-offset="425">
-          <caret line="10" column="146" selection-start-line="10" selection-start-column="146" selection-end-line="10" selection-end-column="146" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <caret line="3" column="21" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="442">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/pocketsphinx-android-0.8-nolib.jar!/edu/cmu/pocketsphinx/SpeechRecognizer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57570094" vertical-offset="712" max-vertical-offset="1292">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.321429" vertical-offset="418" max-vertical-offset="6375">
+          <caret line="63" column="45" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3237#3374#0" expanded="true" />
+            <element signature="e#3367#3368#0" expanded="true" />
+            <element signature="e#3707#3727#0" expanded="true" />
+            <element signature="e#3764#3785#0" expanded="true" />
+            <element signature="e#3824#3847#0" expanded="true" />
+            <element signature="e#3888#3913#0" expanded="true" />
+            <element signature="e#3959#3989#0" expanded="true" />
+            <element signature="e#4212#5359#0" expanded="true" />
+            <element signature="e#5348#5349#0" expanded="true" />
+            <element signature="e#6693#6728#0" expanded="true" />
+            <element signature="e#7035#7067#0" expanded="true" />
+            <element signature="e#7076#7110#0" expanded="true" />
+            <element signature="e#10018#10052#0" expanded="true" />
+            <element signature="e#10232#10263#0" expanded="true" />
+            <element signature="e#10515#10549#0" expanded="true" />
+            <element signature="e#10823#10854#0" expanded="true" />
+            <element signature="e#11277#11308#0" expanded="true" />
+            <element signature="e#14809#15274#0" expanded="true" />
+            <element signature="e#15267#15268#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2435,16 +2505,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../hmm/alpha/assets/sync/models/dict/cmu07a.dic">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.1698112" vertical-offset="99363" max-vertical-offset="2268514">
-          <caret line="5861" column="30" selection-start-line="5861" selection-start-column="12" selection-end-line="5861" selection-end-column="30" />
+        <state vertical-scroll-proportion="-3.1886792" vertical-offset="103837" max-vertical-offset="2268514">
+          <caret line="6118" column="24" selection-start-line="6118" selection-start-column="18" selection-end-line="6118" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51264757" vertical-offset="70" max-vertical-offset="697">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.071428" vertical-offset="165" max-vertical-offset="714">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.060714286" vertical-offset="0" max-vertical-offset="560">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>

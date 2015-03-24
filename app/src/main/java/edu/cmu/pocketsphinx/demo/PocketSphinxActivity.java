@@ -64,6 +64,7 @@ public class PocketSphinxActivity extends Activity implements
     private static final String DIGITS_SEARCH = "podbor";
     private static final String MENU_SEARCH = "menu";
     private static final String KEYPHRASE = "start";
+    private static final String ARTICULDIGITS_SEARCH = "artical";
 
     private static String TEK_SEARCH = "KWS_SEARCH";
 
@@ -103,6 +104,7 @@ public class PocketSphinxActivity extends Activity implements
         captions.put(MENU_SEARCH, R.string.menu_caption);
         captions.put(DIGITS_SEARCH, R.string.digits_caption);
         captions.put(FORECAST_SEARCH, R.string.forecast_caption);
+        captions.put(ARTICULDIGITS_SEARCH, R.string.articulDigits_caption);
         setContentView(R.layout.main);
         ((TextView) findViewById(R.id.caption_text))
                 .setText("Preparing the recognizer");
@@ -188,22 +190,14 @@ public class PocketSphinxActivity extends Activity implements
         }
         else if (text.equals(FORECAST_SEARCH)) {
 
-//            if (Model.setState(ModelState.START)) {
-//                answer = getString(R.string.answer_start) + " " + getString(R.string.answer_article) + " " + Model.getData().getCurrent().getName();
-//            }
-
             TEK_SEARCH = FORECAST_SEARCH;
             switchSearch(TEK_SEARCH);
+        }
+        else if (text.equals(ARTICULDIGITS_SEARCH)) {
 
-/*
-            TEK_SEARCH = DIGITS_SEARCH;
+            TEK_SEARCH = ARTICULDIGITS_SEARCH;
             switchSearch(TEK_SEARCH);
-*/
 
-  /*          if (answer != null) {
-                process(answer);
-            }
-*/
         }
         else {
             ((TextView) findViewById(R.id.result_text)).setText(text);
@@ -259,7 +253,7 @@ public class PocketSphinxActivity extends Activity implements
             } else
 */
             if (TEK_SEARCH == DIGITS_SEARCH){
-                if (text.equals("gotovo") || text.equals("dalshe") || text.equals("next")) {
+                if (text.equals("gotovo") || text.equals("dalshe") || text.equals("next") || text.equals("artical")) {
                     if (Model.getState() == ModelState.START) {
                         if (Model.getData().getNext() != null) {
                             answer = getString(R.string.answer_article) + " " + Model.getData().getCurrent().getName();
@@ -357,6 +351,9 @@ public class PocketSphinxActivity extends Activity implements
         recognizer.addGrammarSearch(MENU_SEARCH, menuGrammar);
         File digitsGrammar = new File(modelsDir, "grammar/digits.gram");
         recognizer.addGrammarSearch(DIGITS_SEARCH, digitsGrammar);
+        // тест артикулов
+        File articulDigitsGrammar = new File(modelsDir, "grammar/articuldigits.gram");
+        recognizer.addGrammarSearch(ARTICULDIGITS_SEARCH, articulDigitsGrammar);
         // Create language model search.
         File languageModel = new File(modelsDir, "lm/weather.dmp");
 //        recognizer.addNgramSearch(FORECAST_SEARCH, languageModel);
