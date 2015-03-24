@@ -207,13 +207,13 @@ public class PocketSphinxActivity extends Activity implements
         }
         else {
             ((TextView) findViewById(R.id.result_text)).setText(text);
-            if (TEK_SEARCH == FORECAST_SEARCH) {
+//            if (TEK_SEARCH == FORECAST_SEARCH) {
                 flstop = true;
-                mHandler.postDelayed(mStopRecognitionCallback, 300); // ждем для более полного распознования еще 1000 мс
-            }else {
-                stopRecognition();
-//                recognizer.stop();
-            }
+                mHandler.postDelayed(mStopRecognitionCallback, 300); // ждем для более полного распознования еще 300 мс
+//            }else {
+//                stopRecognition();
+////                recognizer.stop();
+//            }
 
         }
     }

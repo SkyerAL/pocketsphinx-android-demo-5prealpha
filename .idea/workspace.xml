@@ -46,8 +46,8 @@
       <file leaf-file-name="PocketSphinxActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.17355372" vertical-offset="3097" max-vertical-offset="6426">
-              <caret line="204" column="13" selection-start-line="204" selection-start-column="13" selection-end-line="204" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.47272727" vertical-offset="2689" max-vertical-offset="6426">
+              <caret line="203" column="32" selection-start-line="203" selection-start-column="32" selection-end-line="203" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3171#3308#0" expanded="true" />
@@ -61,13 +61,13 @@
                 <element signature="e#6551#6586#0" expanded="true" />
                 <element signature="e#6893#6925#0" expanded="true" />
                 <element signature="e#6934#6968#0" expanded="true" />
-                <element signature="e#10084#10118#0" expanded="true" />
-                <element signature="e#10298#10329#0" expanded="true" />
-                <element signature="e#10581#10615#0" expanded="true" />
-                <element signature="e#10889#10920#0" expanded="true" />
-                <element signature="e#11343#11374#0" expanded="true" />
-                <element signature="e#14681#15146#0" expanded="true" />
-                <element signature="e#15139#15140#0" expanded="true" />
+                <element signature="e#10093#10127#0" expanded="true" />
+                <element signature="e#10307#10338#0" expanded="true" />
+                <element signature="e#10590#10624#0" expanded="true" />
+                <element signature="e#10898#10929#0" expanded="true" />
+                <element signature="e#11352#11383#0" expanded="true" />
+                <element signature="e#14690#15155#0" expanded="true" />
+                <element signature="e#15148#15149#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1843,7 +1843,11 @@
       <created>1427103795545</created>
       <updated>1427103795545</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ввел флажок показывающий, что мы оканчиваем сеанс - исключаем повторный вызов&#10;">
+      <created>1427117883604</created>
+      <updated>1427117883604</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1855,7 +1859,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295699" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839224" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26480836" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26480836" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33865452" sideWeight="0.35181236" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1871,7 +1875,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17849462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26480836" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1939,7 +1943,8 @@
     <MESSAGE value="test/ стабильная версия" />
     <MESSAGE value="ввел тестовый режим" />
     <MESSAGE value="ввел handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="ввел handler" />
+    <MESSAGE value="ввел флажок показывающий, что мы оканчиваем сеанс - исключаем повторный вызов&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="ввел флажок показывающий, что мы оканчиваем сеанс - исключаем повторный вызов&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1988,13 +1993,13 @@
             <element signature="e#6551#6586#0" expanded="true" />
             <element signature="e#6893#6925#0" expanded="true" />
             <element signature="e#6934#6968#0" expanded="true" />
-            <element signature="e#10084#10118#0" expanded="true" />
-            <element signature="e#10298#10329#0" expanded="true" />
-            <element signature="e#10581#10615#0" expanded="true" />
-            <element signature="e#10889#10920#0" expanded="true" />
-            <element signature="e#11343#11374#0" expanded="true" />
-            <element signature="e#14681#15146#0" expanded="true" />
-            <element signature="e#15139#15140#0" expanded="true" />
+            <element signature="e#10093#10127#0" expanded="true" />
+            <element signature="e#10307#10338#0" expanded="true" />
+            <element signature="e#10590#10624#0" expanded="true" />
+            <element signature="e#10898#10929#0" expanded="true" />
+            <element signature="e#11352#11383#0" expanded="true" />
+            <element signature="e#14690#15155#0" expanded="true" />
+            <element signature="e#15148#15149#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2063,13 +2068,13 @@
             <element signature="e#6551#6586#0" expanded="true" />
             <element signature="e#6893#6925#0" expanded="true" />
             <element signature="e#6934#6968#0" expanded="true" />
-            <element signature="e#10084#10118#0" expanded="true" />
-            <element signature="e#10298#10329#0" expanded="true" />
-            <element signature="e#10581#10615#0" expanded="true" />
-            <element signature="e#10889#10920#0" expanded="true" />
-            <element signature="e#11343#11374#0" expanded="true" />
-            <element signature="e#14681#15146#0" expanded="true" />
-            <element signature="e#15139#15140#0" expanded="true" />
+            <element signature="e#10093#10127#0" expanded="true" />
+            <element signature="e#10307#10338#0" expanded="true" />
+            <element signature="e#10590#10624#0" expanded="true" />
+            <element signature="e#10898#10929#0" expanded="true" />
+            <element signature="e#11352#11383#0" expanded="true" />
+            <element signature="e#14690#15155#0" expanded="true" />
+            <element signature="e#15148#15149#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2156,13 +2161,13 @@
             <element signature="e#6551#6586#0" expanded="true" />
             <element signature="e#6893#6925#0" expanded="true" />
             <element signature="e#6934#6968#0" expanded="true" />
-            <element signature="e#10084#10118#0" expanded="true" />
-            <element signature="e#10298#10329#0" expanded="true" />
-            <element signature="e#10581#10615#0" expanded="true" />
-            <element signature="e#10889#10920#0" expanded="true" />
-            <element signature="e#11343#11374#0" expanded="true" />
-            <element signature="e#14681#15146#0" expanded="true" />
-            <element signature="e#15139#15140#0" expanded="true" />
+            <element signature="e#10093#10127#0" expanded="true" />
+            <element signature="e#10307#10338#0" expanded="true" />
+            <element signature="e#10590#10624#0" expanded="true" />
+            <element signature="e#10898#10929#0" expanded="true" />
+            <element signature="e#11352#11383#0" expanded="true" />
+            <element signature="e#14690#15155#0" expanded="true" />
+            <element signature="e#15148#15149#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2405,8 +2410,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.17355372" vertical-offset="3097" max-vertical-offset="6426">
-          <caret line="204" column="13" selection-start-line="204" selection-start-column="13" selection-end-line="204" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.47272727" vertical-offset="2689" max-vertical-offset="6426">
+          <caret line="203" column="32" selection-start-line="203" selection-start-column="32" selection-end-line="203" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3171#3308#0" expanded="true" />
@@ -2420,13 +2425,13 @@
             <element signature="e#6551#6586#0" expanded="true" />
             <element signature="e#6893#6925#0" expanded="true" />
             <element signature="e#6934#6968#0" expanded="true" />
-            <element signature="e#10084#10118#0" expanded="true" />
-            <element signature="e#10298#10329#0" expanded="true" />
-            <element signature="e#10581#10615#0" expanded="true" />
-            <element signature="e#10889#10920#0" expanded="true" />
-            <element signature="e#11343#11374#0" expanded="true" />
-            <element signature="e#14681#15146#0" expanded="true" />
-            <element signature="e#15139#15140#0" expanded="true" />
+            <element signature="e#10093#10127#0" expanded="true" />
+            <element signature="e#10307#10338#0" expanded="true" />
+            <element signature="e#10590#10624#0" expanded="true" />
+            <element signature="e#10898#10929#0" expanded="true" />
+            <element signature="e#11352#11383#0" expanded="true" />
+            <element signature="e#14690#15155#0" expanded="true" />
+            <element signature="e#15148#15149#0" expanded="true" />
           </folding>
         </state>
       </provider>
