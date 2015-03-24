@@ -19,25 +19,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122d1bee-5f12-4d2c-a1f6-c82a44574825" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram" />
-      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\generated\source\buildConfig\release\edu\cmu\pocketsphinx\demo\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\generated\source\buildConfig\test\debug\edu\cmu\pocketsphinx\demo\test\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\generated\source\r\release\edu\cmu\pocketsphinx\demo\R.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\intermediates\dex\debug\classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\intermediates\dex\release\classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\intermediates\pre-dexed\debug\pocketsphinx-android-0.8-nolib-4e2a1a4445bcc279843db44b0c2ed179ccc90f49.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\intermediates\pre-dexed\release\pocketsphinx-android-0.8-nolib-4e2a1a4445bcc279843db44b0c2ed179ccc90f49.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\intermediates\tmp\dex\debug\inputList.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\intermediates\tmp\dex\release\inputList.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/edu/cmu/pocketsphinx/demo/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/edu/cmu/pocketsphinx/demo/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/assets.lst" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/assets.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic.md5" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic.md5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram.md5" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram.md5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/hmm/en-us-semi/feat.params.md5" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/hmm/en-us-semi/feat.params.md5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/hmm/en-us-semi/noisedict.md5" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/hmm/en-us-semi/noisedict.md5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pocketsphinx-android-demo-5prealpha.iws" />
@@ -64,8 +47,8 @@
       <file leaf-file-name="PocketSphinxActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.321429" vertical-offset="418" max-vertical-offset="6375">
-              <caret line="63" column="45" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="45" />
+            <state vertical-scroll-proportion="-7.535714" vertical-offset="2458" max-vertical-offset="6375">
+              <caret line="185" column="37" selection-start-line="185" selection-start-column="37" selection-end-line="185" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3237#3374#0" expanded="true" />
@@ -92,21 +75,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articuldigits.gram" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="articuldigits.gram" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.060714286" vertical-offset="0" max-vertical-offset="560">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
               <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cmu07a.dic" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="cmu07a.dic" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.071428" vertical-offset="165" max-vertical-offset="714">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.575188" vertical-offset="0" max-vertical-offset="714">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -159,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="21" />
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -1295,12 +1278,12 @@
         <option value="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/model/ModelData.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/model/ModelState.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/model/Model.java" />
-        <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram" />
         <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic" />
         <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram" />
       </list>
     </option>
   </component>
@@ -1912,7 +1895,11 @@
       <created>1427202722867</created>
       <updated>1427202722867</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="создал тестовую грамматику на цифры">
+      <created>1427203541721</created>
+      <updated>1427203541721</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -2031,7 +2018,8 @@
     <MESSAGE value="ввел флажок показывающий, что мы оканчиваем сеанс - исключаем повторный вызов&#10;" />
     <MESSAGE value="перевел все на задержку 300&#10;" />
     <MESSAGE value="обновил словарь (добавил цифры)" />
-    <option name="LAST_COMMIT_MESSAGE" value="обновил словарь (добавил цифры)" />
+    <MESSAGE value="создал тестовую грамматику на цифры" />
+    <option name="LAST_COMMIT_MESSAGE" value="создал тестовую грамматику на цифры" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2104,6 +2092,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="272">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2198,6 +2187,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="272">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2343,6 +2333,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.061594203" vertical-offset="0" max-vertical-offset="552">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2431,25 +2422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/model/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="442">
@@ -2466,10 +2438,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hmm/alpha/assets/sync/models/dict/cmu07a.dic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1886792" vertical-offset="103837" max-vertical-offset="2268514">
+          <caret line="6118" column="24" selection-start-line="6118" selection-start-column="18" selection-end-line="6118" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.321429" vertical-offset="418" max-vertical-offset="6375">
-          <caret line="63" column="45" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="45" />
+        <state vertical-scroll-proportion="-7.535714" vertical-offset="2458" max-vertical-offset="6375">
+          <caret line="185" column="37" selection-start-line="185" selection-start-column="37" selection-end-line="185" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3237#3374#0" expanded="true" />
@@ -2495,34 +2510,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hmm/alpha/assets/sync/models/dict/cmu07a.dic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1886792" vertical-offset="103837" max-vertical-offset="2268514">
-          <caret line="6118" column="24" selection-start-line="6118" selection-start-column="18" selection-end-line="6118" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.071428" vertical-offset="165" max-vertical-offset="714">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.060714286" vertical-offset="0" max-vertical-offset="560">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.575188" vertical-offset="0" max-vertical-offset="714">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding />
         </state>
       </provider>
