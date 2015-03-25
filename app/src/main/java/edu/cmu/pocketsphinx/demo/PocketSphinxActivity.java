@@ -99,7 +99,7 @@ public class PocketSphinxActivity extends Activity implements
         super.onCreate(state);
 
         // Prepare the data for UI
-        captions = new HashMap<String, Integer>();
+        captions = new HashMap<>();
         captions.put(KWS_SEARCH, R.string.kws_caption);
         captions.put(MENU_SEARCH, R.string.menu_caption);
         captions.put(DIGITS_SEARCH, R.string.digits_caption);
@@ -164,51 +164,54 @@ public class PocketSphinxActivity extends Activity implements
 
     @Override
     public void onPartialResult(Hypothesis hypothesis) {
-        if (flstop==true) return;
+        if (flstop) return;
 
         String answer = null;
         String text = hypothesis.getHypstr();
-        if (text.equals(KEYPHRASE)) {
-            if (Model.setState(ModelState.ACTIVATE)) {
-                answer = getString(R.string.answer_activate);
-            }
-            TEK_SEARCH = MENU_SEARCH;
-            switchSearch(TEK_SEARCH);
-            if (answer != null) {
-                process(answer);
-            }
-        }
-        else if (text.equals(DIGITS_SEARCH)) {
-            if (Model.setState(ModelState.START)) {
-                answer = getString(R.string.answer_start) + " " + getString(R.string.answer_article) + " " + Model.getData().getCurrent().getName();
-            }
-            TEK_SEARCH = DIGITS_SEARCH;
-            switchSearch(TEK_SEARCH);
-            if (answer != null) {
-                process(answer);
-            }
-        }
-        else if (text.equals(FORECAST_SEARCH)) {
+        switch (text) {
+            case KEYPHRASE:
+                if (Model.setState(ModelState.ACTIVATE)) {
+                    answer = getString(R.string.answer_activate);
+                }
+                TEK_SEARCH = MENU_SEARCH;
+                switchSearch(TEK_SEARCH);
+                if (answer != null) {
+                    process(answer);
+                }
+                break;
+            case DIGITS_SEARCH:
+                if (Model.setState(ModelState.START)) {
+                    answer = getString(R.string.answer_start) + " " + getString(R.string.answer_article) + " " + Model.getData().getCurrent().getName();
+                }
+                TEK_SEARCH = DIGITS_SEARCH;
+                switchSearch(TEK_SEARCH);
+                if (answer != null) {
+                    process(answer);
+                }
+                break;
+            case FORECAST_SEARCH:
 
-            TEK_SEARCH = FORECAST_SEARCH;
-            switchSearch(TEK_SEARCH);
-        }
+                TEK_SEARCH = FORECAST_SEARCH;
+                switchSearch(TEK_SEARCH);
+                break;
 //        else if (text.equals(ARTICULDIGITS_SEARCH)) {
 //
 //            TEK_SEARCH = ARTICULDIGITS_SEARCH;
 //            switchSearch(TEK_SEARCH);
 //
 //        }
-        else {
-            ((TextView) findViewById(R.id.result_text)).setText(text);
+            default:
+                ((TextView) findViewById(R.id.result_text)).setText(text);
 //            if (TEK_SEARCH == FORECAST_SEARCH) {
                 flstop = true;
                 mHandler.postDelayed(mStopRecognitionCallback, 300); // ждем для более полного распознования еще 300 мс
+
 //            }else {
 //                stopRecognition();
 ////                recognizer.stop();
 //            }
 
+                break;
         }
     }
 
@@ -217,7 +220,7 @@ public class PocketSphinxActivity extends Activity implements
       //  mHandler.removeCallbacks(mStopRecognitionCallback);
         recognizer.stop();
         // TODO: проверка
-        String text = null;
+        String text;
 //        int score = 0;
 
  /*       if (hypothesis != null) {
@@ -252,33 +255,43 @@ public class PocketSphinxActivity extends Activity implements
                 }
             } else
 */
-            if (TEK_SEARCH == DIGITS_SEARCH){
-                if (text.equals("gotovo") || text.equals("dalshe") || text.equals("next")) {
-                    if (Model.getState() == ModelState.START) {
-                        if (Model.getData().getNext() != null) {
-                            answer = getString(R.string.answer_article) + " " + Model.getData().getCurrent().getName();
-                        } else {
-                            Model.setState(ModelState.STOP);
-                            answer = getString(R.string.answer_stop);
+            if (TEK_SEARCH.equals(DIGITS_SEARCH)){
+                switch (text) {
+                    case "gotovo":
+                    case "dalshe":
+                    case "next":
+                        if (Model.getState() == ModelState.START) {
+                            if (Model.getData().getNext() != null) {
+                                answer = getString(R.string.answer_article) + " " + Model.getData().getCurrent().getName();
+                            } else {
+                                Model.setState(ModelState.STOP);
+                                answer = getString(R.string.answer_stop);
+                            }
                         }
-                    }
-                } else if (text.equals("povtory") || text.equals("escheraz") || text.equals("neponyal") || text.equals("artical")) {
-                    if (Model.getState() == ModelState.START) {
-                        answer = getString(R.string.answer_article) + " " + Model.getData().getCurrent().getName();
-                    }
-                } else if (text.equals("podborokonchen")) {
-                    if (Model.setState(ModelState.STOP)) {
-                        answer = getString(R.string.answer_stop);
-                        TEK_SEARCH = KWS_SEARCH;
-                        switchSearch(TEK_SEARCH);
-                    }
-                } else {
-                    //answer = getString(R.string.answer_undefined);
+                        break;
+                    case "povtory":
+                    case "escheraz":
+                    case "neponyal":
+                    case "artical":
+                        if (Model.getState() == ModelState.START) {
+                            answer = getString(R.string.answer_article) + " " + Model.getData().getCurrent().getName();
+                        }
+                        break;
+                    case "podborokonchen":
+                        if (Model.setState(ModelState.STOP)) {
+                            answer = getString(R.string.answer_stop);
+                            TEK_SEARCH = KWS_SEARCH;
+                            switchSearch(TEK_SEARCH);
+                        }
+                        break;
+                    default:
+                        //answer = getString(R.string.answer_undefined);
+                        break;
                 }
 
             } else {
                 answer = text;
-                if (text.equals("stop")) {
+                if (text.equals("podborokonchen")) {
                     if (Model.setState(ModelState.STOP)) {
                         answer = getString(R.string.answer_stop);
                         TEK_SEARCH = KWS_SEARCH;
@@ -355,7 +368,7 @@ public class PocketSphinxActivity extends Activity implements
         File articulDigitsGrammar = new File(modelsDir, "grammar/articuldigits.gram");
         recognizer.addGrammarSearch(ARTICULDIGITS_SEARCH, articulDigitsGrammar);
         // Create language model search.
-        File languageModel = new File(modelsDir, "lm/weather.dmp");
+//        File languageModel = new File(modelsDir, "lm/weather.dmp");
 //        recognizer.addNgramSearch(FORECAST_SEARCH, languageModel);
         recognizer.addGrammarSearch(FORECAST_SEARCH, digitsGrammar);
     }

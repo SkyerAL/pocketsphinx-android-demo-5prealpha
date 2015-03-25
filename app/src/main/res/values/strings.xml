@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
 
     <string name="app_name">PocketSphinx Demo</string>
     <string name="start">Start</string>
@@ -8,7 +8,7 @@
     <string name="kws_caption">Для активации скажи \"start\".</string>
     <string name="menu_caption">Скажи \"подбор\" или \"тестовый режим\" для выбора варианта операции.</string>
     <string name="digits_caption">Управление внутри подбора \"готово | дальше | артикул | повтори | еше раз | не понял | подбор окончен\".</string>
-    <string name="forecast_caption">Тестирование команд \"готово | дальше| next | артикул | повтори | еше раз | не понял | завершить | stop | подбор окончен\".</string>
+    <string name="forecast_caption">Тестирование команд \"готово | дальше | артикул | повтори | еше раз | не понял | подбор окончен\".</string>
     <string name="articulDigits_caption">Тестирование команд \"1 | 2| 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | артикул | стоп\".</string>
     <!--<string name="forecast_caption">Say something typical to a weather forecast like \"sunny spells on Wednesday\".</string>-->
 
