@@ -266,7 +266,7 @@ public class PocketSphinxActivity extends Activity implements
                     if (Model.getState() == ModelState.START) {
                         answer = getString(R.string.answer_article) + " " + Model.getData().getCurrent().getName();
                     }
-                } else if (text.equals("zavershit") || text.equals("podborokonchen")) {
+                } else if (text.equals("podborokonchen")) {
                     if (Model.setState(ModelState.STOP)) {
                         answer = getString(R.string.answer_stop);
                         TEK_SEARCH = KWS_SEARCH;
