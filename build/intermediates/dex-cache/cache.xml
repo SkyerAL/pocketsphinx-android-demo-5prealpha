@@ -6,7 +6,7 @@
         jumboMode="false"
         revision="21.1.2"
         sha1="79e72ad97c6001aa89f3a250970615d92eb05fb8">
-        <dex dex="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\intermediates\pre-dexed\release\pocketsphinx-android-0.8-nolib-4e2a1a4445bcc279843db44b0c2ed179ccc90f49.jar" />
+        <dex dex="C:\Projects\pocketsphinx-android-demo-5prealpha-android-studio\app\build\intermediates\pre-dexed\debug\pocketsphinx-android-0.8-nolib-4e2a1a4445bcc279843db44b0c2ed179ccc90f49.jar" />
     </item>
 
 </items>

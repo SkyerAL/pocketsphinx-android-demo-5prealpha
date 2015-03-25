@@ -2,4 +2,4 @@
 grammar articuldigits;
 public <articuldigits> = artical | nol | adin | dva |
                   tree | chetyire | pyate |
-                  shest | sem | vosem | devyt;
+                  shest | sem | vosem | devyt | stop;

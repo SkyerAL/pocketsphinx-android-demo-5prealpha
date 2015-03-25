@@ -20,8 +20,9 @@
   <component name="ChangeListManager">
     <list default="true" id="122d1bee-5f12-4d2c-a1f6-c82a44574825" name="Default" comment="создал тестовую грамматику на цифры">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic.md5" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic.md5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram.md5" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram.md5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram" afterPath="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pocketsphinx-android-demo-5prealpha.iws" />
@@ -49,8 +50,8 @@
       <file leaf-file-name="PocketSphinxActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37678573" vertical-offset="1438" max-vertical-offset="6375">
-              <caret line="125" column="102" selection-start-line="125" selection-start-column="102" selection-end-line="125" selection-end-column="102" />
+            <state vertical-scroll-proportion="0.7542857" vertical-offset="3803" max-vertical-offset="6375">
+              <caret line="275" column="68" selection-start-line="275" selection-start-column="68" selection-end-line="275" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3237#3374#0" expanded="true" />
@@ -65,24 +66,14 @@
                 <element signature="e#6693#6728#0" expanded="true" />
                 <element signature="e#7035#7067#0" expanded="true" />
                 <element signature="e#7076#7110#0" expanded="true" />
-                <element signature="e#10018#10052#0" expanded="true" />
-                <element signature="e#10232#10263#0" expanded="true" />
-                <element signature="e#10515#10549#0" expanded="true" />
-                <element signature="e#10823#10854#0" expanded="true" />
-                <element signature="e#11277#11308#0" expanded="true" />
-                <element signature="e#14809#15274#0" expanded="true" />
-                <element signature="e#15267#15268#0" expanded="true" />
+                <element signature="e#10030#10064#0" expanded="true" />
+                <element signature="e#10244#10275#0" expanded="true" />
+                <element signature="e#10527#10561#0" expanded="true" />
+                <element signature="e#10835#10866#0" expanded="true" />
+                <element signature="e#11289#11320#0" expanded="true" />
+                <element signature="e#14821#15286#0" expanded="true" />
+                <element signature="e#15279#15280#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articuldigits.gram" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -90,8 +81,8 @@
       <file leaf-file-name="cmu07a.dic" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.357142" vertical-offset="0" max-vertical-offset="714">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="714">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -100,8 +91,8 @@
       <file leaf-file-name="cmu07a.dic" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../hmm/alpha/assets/sync/models/dict/cmu07a.dic">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1886792" vertical-offset="103837" max-vertical-offset="2268514">
-              <caret line="6118" column="24" selection-start-line="6118" selection-start-column="18" selection-end-line="6118" selection-end-column="24" />
+            <state vertical-scroll-proportion="-2.2264152" vertical-offset="103837" max-vertical-offset="2268514">
+              <caret line="6115" column="19" selection-start-line="6115" selection-start-column="19" selection-end-line="6115" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -144,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="442">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="39" />
+              <caret line="11" column="116" selection-start-line="11" selection-start-column="116" selection-end-line="11" selection-end-column="116" />
               <folding />
             </state>
           </provider>
@@ -154,7 +145,17 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articuldigits.gram" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+              <caret line="4" column="52" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -1271,10 +1272,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/model/ModelState.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/model/Model.java" />
         <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram" />
         <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic" />
         <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java" />
       </list>
     </option>
@@ -1642,7 +1643,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="DEBUGGABLE_DEVICE" value="samsung-gt_i9192-035c0af9" />
     <property name="DEBUGGABLE_PROCESS" value="edu.cmu.pocketsphinx.demo" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
@@ -1915,7 +1916,11 @@
       <created>1427205092936</created>
       <updated>1427205092936</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="создал тестовую грамматику на цифры">
+      <created>1427205890477</created>
+      <updated>1427205890477</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1943,7 +1948,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29304448" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295699" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839224" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -1954,7 +1959,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26480836" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32520324" sideWeight="0.4989339" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3379791" sideWeight="0.64818764" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33751425" sideWeight="0.64818764" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2069,13 +2074,13 @@
             <element signature="e#6693#6728#0" expanded="true" />
             <element signature="e#7035#7067#0" expanded="true" />
             <element signature="e#7076#7110#0" expanded="true" />
-            <element signature="e#10018#10052#0" expanded="true" />
-            <element signature="e#10232#10263#0" expanded="true" />
-            <element signature="e#10515#10549#0" expanded="true" />
-            <element signature="e#10823#10854#0" expanded="true" />
-            <element signature="e#11277#11308#0" expanded="true" />
-            <element signature="e#14809#15274#0" expanded="true" />
-            <element signature="e#15267#15268#0" expanded="true" />
+            <element signature="e#10030#10064#0" expanded="true" />
+            <element signature="e#10244#10275#0" expanded="true" />
+            <element signature="e#10527#10561#0" expanded="true" />
+            <element signature="e#10835#10866#0" expanded="true" />
+            <element signature="e#11289#11320#0" expanded="true" />
+            <element signature="e#14821#15286#0" expanded="true" />
+            <element signature="e#15279#15280#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2146,13 +2151,13 @@
             <element signature="e#6693#6728#0" expanded="true" />
             <element signature="e#7035#7067#0" expanded="true" />
             <element signature="e#7076#7110#0" expanded="true" />
-            <element signature="e#10018#10052#0" expanded="true" />
-            <element signature="e#10232#10263#0" expanded="true" />
-            <element signature="e#10515#10549#0" expanded="true" />
-            <element signature="e#10823#10854#0" expanded="true" />
-            <element signature="e#11277#11308#0" expanded="true" />
-            <element signature="e#14809#15274#0" expanded="true" />
-            <element signature="e#15267#15268#0" expanded="true" />
+            <element signature="e#10030#10064#0" expanded="true" />
+            <element signature="e#10244#10275#0" expanded="true" />
+            <element signature="e#10527#10561#0" expanded="true" />
+            <element signature="e#10835#10866#0" expanded="true" />
+            <element signature="e#11289#11320#0" expanded="true" />
+            <element signature="e#14821#15286#0" expanded="true" />
+            <element signature="e#15279#15280#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2234,13 +2239,13 @@
             <element signature="e#6693#6728#0" expanded="true" />
             <element signature="e#7035#7067#0" expanded="true" />
             <element signature="e#7076#7110#0" expanded="true" />
-            <element signature="e#10018#10052#0" expanded="true" />
-            <element signature="e#10232#10263#0" expanded="true" />
-            <element signature="e#10515#10549#0" expanded="true" />
-            <element signature="e#10823#10854#0" expanded="true" />
-            <element signature="e#11277#11308#0" expanded="true" />
-            <element signature="e#14809#15274#0" expanded="true" />
-            <element signature="e#15267#15268#0" expanded="true" />
+            <element signature="e#10030#10064#0" expanded="true" />
+            <element signature="e#10244#10275#0" expanded="true" />
+            <element signature="e#10527#10561#0" expanded="true" />
+            <element signature="e#10835#10866#0" expanded="true" />
+            <element signature="e#11289#11320#0" expanded="true" />
+            <element signature="e#14821#15286#0" expanded="true" />
+            <element signature="e#15279#15280#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2416,26 +2421,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="442">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/app/libs/pocketsphinx-android-0.8-nolib.jar!/edu/cmu/pocketsphinx/SpeechRecognizer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57570094" vertical-offset="712" max-vertical-offset="1292">
           <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -2451,38 +2440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.357142" vertical-offset="0" max-vertical-offset="714">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hmm/alpha/assets/sync/models/dict/cmu07a.dic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1886792" vertical-offset="103837" max-vertical-offset="2268514">
-          <caret line="6118" column="24" selection-start-line="6118" selection-start-column="18" selection-end-line="6118" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
@@ -2491,10 +2448,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../hmm/alpha/assets/sync/models/dict/cmu07a.dic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2264152" vertical-offset="103837" max-vertical-offset="2268514">
+          <caret line="6115" column="19" selection-start-line="6115" selection-start-column="19" selection-end-line="6115" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/dict/cmu07a.dic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/menu.gram">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.48" vertical-offset="0" max-vertical-offset="442">
+          <caret line="11" column="116" selection-start-line="11" selection-start-column="116" selection-end-line="11" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/articuldigits.gram">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sync/models/grammar/digits.gram">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/cmu/pocketsphinx/demo/PocketSphinxActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37678573" vertical-offset="1438" max-vertical-offset="6375">
-          <caret line="125" column="102" selection-start-line="125" selection-start-column="102" selection-end-line="125" selection-end-column="102" />
+        <state vertical-scroll-proportion="0.7542857" vertical-offset="3803" max-vertical-offset="6375">
+          <caret line="275" column="68" selection-start-line="275" selection-start-column="68" selection-end-line="275" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3237#3374#0" expanded="true" />
@@ -2509,13 +2514,13 @@
             <element signature="e#6693#6728#0" expanded="true" />
             <element signature="e#7035#7067#0" expanded="true" />
             <element signature="e#7076#7110#0" expanded="true" />
-            <element signature="e#10018#10052#0" expanded="true" />
-            <element signature="e#10232#10263#0" expanded="true" />
-            <element signature="e#10515#10549#0" expanded="true" />
-            <element signature="e#10823#10854#0" expanded="true" />
-            <element signature="e#11277#11308#0" expanded="true" />
-            <element signature="e#14809#15274#0" expanded="true" />
-            <element signature="e#15267#15268#0" expanded="true" />
+            <element signature="e#10030#10064#0" expanded="true" />
+            <element signature="e#10244#10275#0" expanded="true" />
+            <element signature="e#10527#10561#0" expanded="true" />
+            <element signature="e#10835#10866#0" expanded="true" />
+            <element signature="e#11289#11320#0" expanded="true" />
+            <element signature="e#14821#15286#0" expanded="true" />
+            <element signature="e#15279#15280#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -193,12 +193,12 @@ public class PocketSphinxActivity extends Activity implements
             TEK_SEARCH = FORECAST_SEARCH;
             switchSearch(TEK_SEARCH);
         }
-        else if (text.equals(ARTICULDIGITS_SEARCH)) {
-
-            TEK_SEARCH = ARTICULDIGITS_SEARCH;
-            switchSearch(TEK_SEARCH);
-
-        }
+//        else if (text.equals(ARTICULDIGITS_SEARCH)) {
+//
+//            TEK_SEARCH = ARTICULDIGITS_SEARCH;
+//            switchSearch(TEK_SEARCH);
+//
+//        }
         else {
             ((TextView) findViewById(R.id.result_text)).setText(text);
 //            if (TEK_SEARCH == FORECAST_SEARCH) {
