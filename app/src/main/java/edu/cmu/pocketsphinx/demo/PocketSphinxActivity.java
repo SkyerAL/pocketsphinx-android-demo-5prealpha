@@ -253,7 +253,7 @@ public class PocketSphinxActivity extends Activity implements
             } else
 */
             if (TEK_SEARCH == DIGITS_SEARCH){
-                if (text.equals("gotovo") || text.equals("dalshe") || text.equals("next") || text.equals("artical")) {
+                if (text.equals("gotovo") || text.equals("dalshe") || text.equals("next")) {
                     if (Model.getState() == ModelState.START) {
                         if (Model.getData().getNext() != null) {
                             answer = getString(R.string.answer_article) + " " + Model.getData().getCurrent().getName();
@@ -262,11 +262,11 @@ public class PocketSphinxActivity extends Activity implements
                             answer = getString(R.string.answer_stop);
                         }
                     }
-                } else if (text.equals("povtory") || text.equals("eseraz") || text.equals("neponyal")) {
+                } else if (text.equals("povtory") || text.equals("escheraz") || text.equals("neponyal") || text.equals("artical")) {
                     if (Model.getState() == ModelState.START) {
                         answer = getString(R.string.answer_article) + " " + Model.getData().getCurrent().getName();
                     }
-                } else if (text.equals("zavershit") || text.equals("stop") || text.equals("podborokonchen")) {
+                } else if (text.equals("zavershit") || text.equals("podborokonchen")) {
                     if (Model.setState(ModelState.STOP)) {
                         answer = getString(R.string.answer_stop);
                         TEK_SEARCH = KWS_SEARCH;
